@@ -3,28 +3,20 @@ import Movies from './../comps/Movie'
 import axios from 'axios'
 
 // Acts as an env variable to retrieve data from local django server
-const axiosURL = 'https://127.0.0.1:8000'
+const axiosURL = 'http://127.0.0.1:8000'
 
-const data = [
+const mockData = [
   {
-    title: 'Ant Design Title 1',
-    author: 'kevin',
-    content: 'something simple one',
-  },
-  {
-    title: 'Ant Design Title 2',
-    author: 'karla',
-    content: 'something simple two',
-  },
-  {
-    title: 'Ant Design Title 3',
+    title: 'title 1',
     author: 'kevm',
-    content: 'something simple three',
+    content: 'something simple one',
+    created_on: '01-01-2021',
   },
   {
-    title: 'Ant Design Title 4',
+    title: 'title 2',
     author: 'karlay',
-    content: 'something simple four',
+    content: 'something simple two',
+    created_on: '01-01-2021',
   },
 ]
 
@@ -40,12 +32,13 @@ class MovieList extends React.Component {
       this.setState({
         movies: res.data
       })
+      console.log(res.data)
     })
   }
   
   render() {
     return (
-      <Movies data={this.state.Movies} />
+      <Movies data={this.state.movies} />
     )
   }
 }
