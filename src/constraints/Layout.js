@@ -1,8 +1,12 @@
 import React from 'react'
-
+import { css } from '@emotion/react'
 import { Layout, Menu, Breadcrumb } from 'antd'
 
 const { Header, Content, Footer } = Layout;
+
+const footerCss = css`
+  text-align: center;
+`
 
 const CustomLayout = (props) => {
   return (
@@ -25,7 +29,7 @@ const CustomLayout = (props) => {
           {props.children}
         </div>
       </Content>
-      <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
+      <Footer css={footerCss}>Ant Design ©2018 Created by Ant UED</Footer>
     </Layout>
   )
 }
