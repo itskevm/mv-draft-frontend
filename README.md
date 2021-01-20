@@ -1,3 +1,24 @@
+# mv-draft-frontend
+This frontend program was created with React 17. It is not hosted publicly.
+Follow the steps below to install locally. Yarn package manager is required.
+
+## Installation
+1. Clone the repository to your system and navigate into its root directory.
+```sh
+git clone https://github.com/itskevm/mv-draft-frontend.git
+cd mv-draft-frontend
+```
+
+2. Install dependencies with yarn.
+```sh
+yarn install
+```
+
+3. Run the server and begin development.
+```sh
+yarn start
+```
+
 ## List of resources
 [guide to using customized CRA to allow babel and emotion](https://codedaily.io/tutorials/176/Customize-Create-React-App-without-Ejecting)\
 [the missing details to the overrides file](https://github.com/emotion-js/emotion/issues/2202)\
@@ -6,6 +27,8 @@
 [using prop data being retrieved through axios requests](https://stackoverflow.com/questions/52428879/objects-are-not-valid-as-a-react-child-if-you-meant-to-render-a-collection-of-c)\
 
 ## Available Scripts
+
+This project was created with create-react-app (CRA), but also uses a 'rewiring' package that is included in the dependencies. However, the original scripts and documentation still apply. The rest of the README contains original pieces of CRA documentation.\
 
 In the project directory, you can run:
 

@@ -3,7 +3,14 @@ import Movies from './../comps/Movie'
 import axios from 'axios'
 
 // Acts as an env variable to retrieve data from local django server
-const axiosURL = 'http://127.0.0.1:8000'
+const axiosURL = 'http://itskevm.pythonanywhere.com'
+
+/* Uncomment (or just copy the value from) this section
+  if you are using the backend server locally. This was left
+  out so that preference could go to the deployed version of the backend.
+
+  const axiosURL = 'http://127.0.0.1:8000'
+*/
 
 const mockData = [
   {
@@ -32,7 +39,6 @@ class MovieList extends React.Component {
       this.setState({
         movies: res.data
       })
-      console.log(res.data)
     })
   }
   
