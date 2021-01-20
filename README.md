@@ -1,7 +1,7 @@
 ## List of resources
 [guide to using customized CRA to allow babel and emotion](https://codedaily.io/tutorials/176/Customize-Create-React-App-without-Ejecting)\
 [the missing details to the overrides file](https://github.com/emotion-js/emotion/issues/2202)\
-[installing and using Ant Design](https://ant.design/docs/react/introduce)
+[installing and using Ant Design](https://ant.design/docs/react/introduce)\
 [installing and using Emotion](https://emotion.sh/docs/install)
 
 # Getting Started with Create React App
