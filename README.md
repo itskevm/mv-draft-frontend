@@ -28,7 +28,7 @@ yarn start
 
 ## Available Scripts
 
-This project was created with create-react-app (CRA), but also uses a 'rewiring' package that is included in the dependencies. However, the original scripts and documentation still apply. The rest of the README contains original pieces of CRA documentation.\
+This project was created with create-react-app (CRA), but also uses a 'rewiring' package that is included in the dependencies. However, the original scripts and documentation still apply. The rest of the README contains original pieces of CRA documentation.
 
 In the project directory, you can run:
 
